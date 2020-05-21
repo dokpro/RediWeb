@@ -1,0 +1,75 @@
+.box {
+    background-color: rgb(164, 185, 206); 
+    _background-repeat: no-repeat;
+    background-size: auto;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    transition: transform 300ms, box-shadow 300ms;
+    padding: 2em;
+    _object-fit: fill;
+    background-image: url('../pics/background.jpg');
+    background-blend-mode: soft-light;
+    _opacity: 0.5;
+}
+#center_me, #shadow {
+    border: 1em;
+    border-radius: 1em;
+    _box-shadow: aquamarine;
+    border-color: blueviolet;
+    width: 500px;
+    height: 220px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#shadow {
+    box-shadow: 0 5px 60px 0px rgb(0,0,0, .25);
+}
+
+/*.box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 60px 0px rgb(0,0,0, .25);
+}*/
+
+.img_box {
+    _background-image: url('../pics/my_pics.jpg');
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    object-fit: scale-down;
+    border-radius: 10em;
+    right: 5%;
+    opacity: 1em;
+}
+
+/*.icon_box {
+    object-fit: fill;
+}
+*/
+.whoami_box {
+    _width: auto;
+    _top: 30%;
+    _position: absolute;
+    height: 200px;
+    width: 200px;
+    border: 1em;
+    border-radius: 1em;
+    _box-shadow: 0 2px 60px 7px rgb(0,0,0, .05);
+    padding-top: 25px;
+}
+
+.social_media {
+    border: 1em;
+    border-radius: 1em;
+    box-shadow: 0 2px 60px 7px rgb(0,0,0, .05);
+    position: absolute;
+    bottom: 1px;
+    left: 67%;
+    font-size: 20px;
+}
